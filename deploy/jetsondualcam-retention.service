@@ -1,0 +1,8 @@
+[Unit]
+Description=JetsonDualCam local image retention maintenance
+
+[Service]
+Type=oneshot
+Environment=LOCAL_STORAGE_MAX_GB=60
+Environment=LOCAL_STORAGE_DELETE_GB=30
+ExecStart=/home/orin_nano/Side_Cam_JetsonDualCam/JetsonDualCam_PyQt_async_network_save_force_png_v2/.venv/bin/python /home/orin_nano/Side_Cam_JetsonDualCam/JetsonDualCam_PyQt_async_network_save_force_png_v2/retention_maintenance.py

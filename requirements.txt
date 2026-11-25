@@ -1,0 +1,12 @@
+PySide6
+opencv-python
+numpy>=2.0
+ultralytics
+# onnxruntime>=1.20.0 supports numpy>=2; use onnxruntime-gpu only if CUDA libs present
+onnxruntime>=1.20.0
+fastapi
+uvicorn
+requests
+# pycuda and tensorrt are optional (needed for .engine TensorRT models only)
+# pycuda
+# tensorrt

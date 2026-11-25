@@ -1,0 +1,11 @@
+[Unit]
+Description=Run JetsonDualCam retention at midnight
+
+[Timer]
+OnCalendar=*-*-* 00:00:00
+Persistent=true
+AccuracySec=1min
+Unit=jetsondualcam-retention.service
+
+[Install]
+WantedBy=timers.target

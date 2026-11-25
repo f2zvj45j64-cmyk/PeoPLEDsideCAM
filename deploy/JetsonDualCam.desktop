@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Jetson Dual Camera
+Comment=Open the Jetson dual-camera inspection application
+Exec=/home/orin_nano/Side_Cam_JetsonDualCam/JetsonDualCam_PyQt_async_network_save_force_png_v2/run.sh
+Path=/home/orin_nano/Side_Cam_JetsonDualCam/JetsonDualCam_PyQt_async_network_save_force_png_v2
+Icon=/home/orin_nano/Side_Cam_JetsonDualCam/JetsonDualCam_PyQt_async_network_save_force_png_v2/icon.png
+Terminal=false
+StartupNotify=true
+Categories=Utility;
